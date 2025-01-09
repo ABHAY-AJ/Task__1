@@ -1,0 +1,35 @@
+/* App.css */
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.router-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.router-links a {
+  font-size: 18px;
+  color: #0066cc;
+  text-decoration: none;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.router-links a:hover {
+  color: #005bb5;
+}
