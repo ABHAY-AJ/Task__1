@@ -4,7 +4,7 @@ import Register from "./components/Register";
 import Login from "./components/Login";
 import ForgotPassword from "./components/ForgotPassword";
 import ResetPassword from "./components/ResetPassword";
-import './App.css'; // Import the CSS file
+import './App.css'; 
 
 function App() {
   return (

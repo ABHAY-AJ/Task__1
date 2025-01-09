@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth/";
+const API_URL = "https://task-1-dkdf.onrender.com/api/auth/";
 
 export const registerUser = async (userData) => {
   return axios.post(`${API_URL}register`, userData);
